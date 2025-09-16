@@ -1,0 +1,33 @@
+@media (max-width: 900px) {
+    .project-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .intro, .about, .projects, .contact {
+        padding: 15px;
+    }
+}
+@media (max-width: 600px) {
+    header {
+        padding: 10px 0;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+    .intro, .about, .projects, .contact {
+        margin: 10px auto;
+        padding: 10px;
+    }
+    footer {
+        padding: 10px 0;
+    }
+}
